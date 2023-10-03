@@ -1,5 +1,4 @@
-// import Collapsible from './collapseModule';
-import Collapsible from './CollapseModule';
+import Collapsible from './Collapsible';
 
 const link = document.querySelector('.link');
 const collapsibleElement = document.querySelector('.collapse');
