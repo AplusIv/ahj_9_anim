@@ -5,20 +5,20 @@ html(lang= 'ru')
     title= 'Быстрый запуск Webpack'
   body
     p 
-      a(href="//google.com" class="btn") Link with href
-      button(class="btn" type='button') Button
-    .collapse.collapse-first 
-      .collapse-text Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+      a(href="//google.com" class="link") Link with href
+      //- button(class="btn" type='button') Button
+    .collapse Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+      //- .collapse-text Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
 
-    p Файл откомпилирован шаблонизатором Pug
-    .subscribe
-      form(class='subscribe-form' method='POST' action="http://localhost:7070") 
-        input(class="name" name="name" class="input" required)
-        input(class="phone" name="phone" class="input" required)
-        button(class="btn") Записаться
-        button(class="unsubscribe-btn") Отписаться
-    .logo-png
-      img.logo1(src=require('./images/image.png') alt='Загрузка PNG изображений с помощью Webpack')
-      //- изображение запрашивается как модуль
-    .logo-svg
-      img.logo2(src=require('./images/logo.svg'), alt='Загрузка SVG изображений с помощью Webpack')
+    //- p Файл откомпилирован шаблонизатором Pug
+    //- .subscribe
+    //-   form(class='subscribe-form' method='POST' action="http://localhost:7070") 
+    //-     input(class="name" name="name" class="input" required)
+    //-     input(class="phone" name="phone" class="input" required)
+    //-     button(class="btn") Записаться
+    //-     button(class="unsubscribe-btn") Отписаться
+    //- .logo-png
+    //-   img.logo1(src=require('./images/image.png') alt='Загрузка PNG изображений с помощью Webpack')
+    //-   //- изображение запрашивается как модуль
+    //- .logo-svg
+    //-   img.logo2(src=require('./images/logo.svg'), alt='Загрузка SVG изображений с помощью Webpack')

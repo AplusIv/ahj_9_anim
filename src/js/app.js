@@ -1,10 +1,9 @@
-import Collapsible from "./collapseModule";
+// import Collapsible from './collapseModule';
+import Collapsible from './CollapseModule';
 
-const btn = document.querySelector('.btn');
+const link = document.querySelector('.link');
 const collapsibleElement = document.querySelector('.collapse');
-console.log(collapsibleElement);
 
 console.log(collapsibleElement.offsetHeight);
 
-
-const example = new Collapsible(btn, collapsibleElement);
+const example = new Collapsible(link, collapsibleElement, 0);

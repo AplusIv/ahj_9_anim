@@ -1,20 +1,39 @@
-
-.logo1 {
-  width: 10em;
-}
-
-.logo2 {
-  width: 10em;
+.link {
+  display: block;
+  width: 250px;
+  min-height: 30px;
+  background-color: yellow;
+  text-align: center;
 }
 
 .collapse {
+  max-height: 0px;
   background-color: lightgray;
   overflow: hidden;
+  border-radius: 5px;
 }
 
-.collapse-initial {
-  display: none;
+.collapse-animation {
+  
+  transition-property: max-height;
+  transition-duration: 2s;
+  transition-timing-function: ease;
+
+  max-height: 300px;   
 }
+
+.collapse-animation-reverse {
+  
+  transition-property: max-height;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+
+  max-height: 0px;  
+}
+
+/* .collapse-initial {
+  // display: none;
+} */
 
 /* .collapse:hover {
   animation-name: collapse;
@@ -29,33 +48,11 @@
   animation-timing-function: ease;
 } */
 
-.collapse-first {
+/* .collapse-first {
   max-height: 0px;
-}
+} */
 
-.collapse-animation {
-  
-  transition-property: max-height;
-  transition-duration: 2s;
-  transition-timing-function: ease;
-
-  max-height: 300px; 
-
-  
-}
-
-.collapse-animation-reverse {
-  
-  transition-property: max-height;
-  transition-duration: 2s;
-  transition-timing-function: ease;
-
-  max-height: 0px; 
-
-  
-}
-
-@keyframes collapse {
+/* @keyframes collapse {
   from {
     max-height: 0%;
   }
@@ -65,4 +62,4 @@
   to {
     max-height: 200px;
   }
-}
+} */
