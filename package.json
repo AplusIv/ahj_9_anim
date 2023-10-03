@@ -8,8 +8,7 @@
     "serve": "webpack serve --open --mode development",
     "dev": "webpack --mode development",
     "watch": "forever -w ./src/js/app.js",
-    "lint": "eslint .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
